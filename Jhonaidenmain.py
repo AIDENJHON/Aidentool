@@ -353,7 +353,7 @@ if __name__ == "__main__":
             
             service = IntPrompt.ask(f"[bold][?] Select a Service [red][1-{choices[-1]} or 0][/red][/bold]", choices=choices, show_choices=False)
             
-            print(Colorate.Horizontal(Colors.rainbow, '===============[ 𝐁𝐫𝐢𝐱𝐓𝐨𝐨𝐥𝐕𝟐 ]==============='))
+            print(Colorate.Horizontal(Colors.rainbow, '===============[ AidenTool ]==============='))
             
             if service == 0: # Exit
                 print(Colorate.Horizontal(Colors.rainbow, f'Thank You for using our tool, please join our telegram channel: @{__CHANNEL_USERNAME__}.'))
