@@ -39,10 +39,17 @@ def gradient_text(text, colors):
         colorful_text.append("\n")
     return colorful_text
 
-def banner(console):
-    os.system('cls' if os.name == 'nt' else 'clear')
-    brand_name = figlet_format('AIDEN', font='bloody')
+    brand_name =  "                      ╋╋┏┳━┓┏━┳━━━┳━━━┳━━━┳━━━┳━━━┳━━━┓\n"
+    brand_name += "                      ╋╋┃┃┃┗┛┃┃┏━┓┃┏━┓┃┏━┓┃┏━┓┃┏━┓┃┏━━┛\n"
+    brand_name += "                      ╋╋┃┃┏┓┏┓┃┃╋┗┫┃╋┃┃┗━┛┃┃╋┃┃┃╋┗┫┗━━┓\n"
+    brand_name += "                      ┏┓┃┃┃┃┃┃┃┃┏━┫┗━┛┃┏┓┏┫┗━┛┃┃┏━┫┏━━┛\n"
+    brand_name += "                      ┃┗┛┃┃┃┃┃┃┗┻━┃┏━┓┃┃┃┗┫┏━┓┃┗┻━┃┗━━┓\n"
+    brand_name += "                      ┗━━┻┛┗┛┗┻━━━┻┛╋┗┻┛┗━┻┛╋┗┻━━━┻━━━┛\n"         
     colors = [
+        "rgb(0,255,255)", "rgb(0,206,209)", "rgb(0,191,255)", "rgb(70,130,180)", "rgb(0,0,255)",
+        "rgb(72,61,139)", "rgb(75,0,130)", "rgb(138,43,226)", "rgb(0,128,128)", "rgb(0,100,0)",
+        "rgb(60,179,113)"
+        
         "rgb(255,0,0)", "rgb(255,69,0)", "rgb(255,140,0)", "rgb(255,215,0)", "rgb(173,255,47)", 
         "rgb(0,255,0)", "rgb(0,255,255)", "rgb(0,191,255)", "rgb(0,0,255)", "rgb(139,0,255)",
         "rgb(255,0,255)"
